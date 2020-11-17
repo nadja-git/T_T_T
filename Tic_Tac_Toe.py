@@ -32,13 +32,8 @@ def player_input():
 
 #Step 3: Write a function that takes in the board list object, a marker ('X' or 'O'),
 #  and a desired position (number 1-9) and assigns it to the board.
-
-
-
-
-
-
-
+def place_marker(board, marker, position):
+    board[position] = marker
 
 #Step 4: Write a function that takes in a board and checks to see if someone has won.
 ef win_check(board,mark):
