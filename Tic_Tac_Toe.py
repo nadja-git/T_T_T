@@ -1,6 +1,7 @@
 # T_T_T
 # Practical repo for "Tic Tac Toe" 
 # wanted to create i Phyton file
+# More comments for the git hub 
 from IPython.display import clear_output 
 
  
