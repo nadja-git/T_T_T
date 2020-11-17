@@ -1,53 +1,36 @@
-# T_T_T
-# this is function to check if board is full
-def full_board_check(board): 
-    count = 0 
-    for i in range (1,10): 
-        if board[i] == ' ': 
-            count += 1 
-    if count == 0: 
-        return True 
-    else: 
-        return False 
-def player_choice(board): 
-    ref = False 
-    while ref == False: 
-        pos = int(input("Choose your cell (between 1-9): ")) 
-        if pos<1 and pos>9: 
-            print('Number out of range') 
-            continue 
-        if space_check(board, pos): 
-            ref = True 
-            return pos 
-        else: 
-            print('The cell is already filled! Choose another one') 
-# Function to replay the game 
+#Step 1: Write a function that can print out a board.
+# Set up your board as a list, where each index 1-9 corresponds with a number on a number pad, 
+# so you get a 3 by 3 board representation.
+pass
 
-def replay(): 
 
-    reply = input("Do you want to play again? (Y or N): ").upper() 
 
-    return reply == 'Y' 
-#added a new comment
-#Now in Nadja_Branch
-# Practical repo for "Tic Tac Toe" 
-# wanted to create i Phyton file
-# More comments for the git hub 
-from IPython.display import clear_output 
 
- 
 
-def display_board(board): 
 
-    clear_output() 
 
-    print(' '+ board[7]+ ' | ' +board[8]+ ' | ' +board[9]) 
+#Step 2: Write a function that can take in a player input and assign their marker as 'X' or 'O'. 
+# Think about using while loops to continually ask until you get a correct answer.
 
-    print('-----------') 
 
-    print(' '+ board[4]+ ' | ' +board[5]+ ' | ' +board[6]) 
 
-    print('-----------') 
 
-    print(' '+ board[1]+ ' | ' +board[2]+ ' | ' +board[3]) 
+
+
+
+
+
+
+
+#Step 3: Write a function that takes in the board list object, a marker ('X' or 'O'),
+#  and a desired position (number 1-9) and assigns it to the board.
+
+
+
+
+
+
+
+
+#Step 4: Write a function that takes in a board and checks to see if someone has won.
 
