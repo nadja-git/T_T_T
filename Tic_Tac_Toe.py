@@ -1,5 +1,5 @@
 # T_T_T
-Practical repo for "Tic Tac Toe" 
+# Practical repo for "Tic Tac Toe" 
 # wanted to create i Phyton file
 from IPython.display import clear_output 
 
