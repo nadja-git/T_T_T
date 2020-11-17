@@ -12,3 +12,25 @@
 
 
 #Step 4: Write a function that takes in a board and checks to see if someone has won.
+
+
+#Step 5: Write a function that uses the random module to randomly decide which player goes first.
+#  You may want to lookup random.randint() Return a string of which player went first.
+
+
+#Step 6: Write a function that returns a boolean indicating whether a space on the board is freely available.
+
+
+#Step 7: Write a function that checks if the board is full and returns a boolean value. True if full, False otherwise.
+
+
+
+#Step 8: Write a function that asks for a player's next position (as a number 1-9)
+#  and then uses the function from step 6 to check if its a free position.
+#  If it is, then return the position for later use.
+
+
+#Step 9: Write a function that asks the player if they want to play again and returns a boolean True if they do want to play again.
+
+#Step 10: Here comes the hard part! Use while loops and the functions you've made to run the game!
+#Game Logic
