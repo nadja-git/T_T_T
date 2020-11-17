@@ -11,7 +11,16 @@ pass
 
 #Step 2: Write a function that can take in a player input and assign their marker as 'X' or 'O'. 
 # Think about using while loops to continually ask until you get a correct answer.
+def player_input():
+    marker = ''
+    
+    while not (marker == 'X' or marker == 'O'):
+        marker = input('Player 1: Do you want to be X or O? ').upper()
 
+    if marker == 'X':
+        return ('X', 'O')
+    else:
+        return ('O', 'X')
 
 
 
