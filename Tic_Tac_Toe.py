@@ -17,7 +17,57 @@ def choose_first():
 
 
 #Step 4: Write a function that takes in a board and checks to see if someone has won.
+def win_check(board, mark): 
 
+    check_result = False 
+
+    if mark == board[1] == board[2] == board[3]: 
+
+        check_result = True 
+
+    elif mark == board[4] == board[5] == board[6]: 
+
+        check_result = True 
+
+    elif mark == board[7] == board[8] == board[9]: 
+
+        check_result = True 
+
+    elif mark == board[1] == board[4] == board[7]: 
+
+        check_result = True 
+
+    elif mark == board[2] == board[5] == board[8]: 
+
+        check_result = True 
+
+    elif mark == board[3] == board[6] == board[9]: 
+
+        check_result = True     
+
+    elif mark == board[1] == board[5] == board[9]: 
+
+        check_result = True 
+
+    elif mark == board[3] == board[5] == board[7]: 
+
+        check_result = True 
+
+    return check_result 
+
+#5  Function to choose who plays first (MOHAMMED) 
+
+import random 
+
+def choose_first(): 
+
+    if random.randint(1,2) == 1: 
+
+        return 'Player 1' 
+
+    else: 
+
+        return 'Player 2' 
 
 #Step 5: Write a function that uses the random module to randomly decide which player goes first.
 #  You may want to lookup random.randint() Return a string of which player went first.
