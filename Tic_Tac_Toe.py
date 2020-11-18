@@ -5,7 +5,12 @@
 
 #Step 2: Write a function that can take in a player input and assign their marker as 'X' or 'O'. 
 # Think about using while loops to continually ask until you get a correct answer.
-
+import random
+def choose_first():
+    if random.randint(1,2) == 1:
+        return 'Player 1'
+    else:
+        return 'Player 2'
 
 #Step 3: Write a function that takes in the board list object, a marker ('X' or 'O'),
 #  and a desired position (number 1-9) and assigns it to the board.
