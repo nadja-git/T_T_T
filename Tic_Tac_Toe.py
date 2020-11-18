@@ -3,6 +3,20 @@
 # so you get a 3 by 3 board representation.
 
 
+def display_board(board): 
+
+    clear_output() 
+
+    print(' '+ board[7]+ ' | ' +board[8]+ ' | ' +board[9]) 
+
+    print('-----------') 
+
+    print(' '+ board[4]+ ' | ' +board[5]+ ' | ' +board[6]) 
+
+    print('-----------') 
+
+    print(' '+ board[1]+ ' | ' +board[2]+ ' | ' +board[3]) 
+
 #Step 2: Write a function that can take in a player input and assign their marker as 'X' or 'O'. 
 # Think about using while loops to continually ask until you get a correct answer.
 import random
